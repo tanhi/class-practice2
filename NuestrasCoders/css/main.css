@@ -1,23 +1,45 @@
-.container {
+body { /**/
+    padding: 20px;
+
+}
+
+h1 {/*Formato del titulo Nuestras Coders*/
+    display: inline;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    color: #9FA09E ;
+}
+
+.separator {/*Formato del separador entre el titulo y contenedor de fotos*/
+    background: #474747 ;
+    height: 5px;
+    width: 100px;
+    padding:0;
+    margin:0;
+    margin-bottom: 30px;
+}
+
+.container { /*Se da dimensión al contenedor de las fotografias
+   y como será mostrado en pantalla*/
     width: 850px;
     height: 432px;
     display: inline-block;
 }
 
-img {
+img {/*Se dimensionan fotos y separación entre ellas*/
     height: 200px;
     width: 170px;
     padding: 10px;
 }
 
-.image {
+.image {/*Se posicionan fotos*/
     height: 210px;
     width: 200px;
     float: left;
 
 }
 
-span{
+span{/*Formato del nombre de nuestras coders*/
     float: right;
     position: relative;
     bottom: 40px;
@@ -27,22 +49,3 @@ span{
     font-family: 'Lato', sans-serif;
 
 }
-
-.separator {
-    background: #474747 ;
-    height: 5px;
-    width: 100px;
-    padding:0;
-    margin:0;
-    margin-bottom: 15px;
-}
-
-h1 {
-    display: inline;
-    font-family: 'Roboto Slab', serif;
-    font-size: 22px;
-    color: #9FA09E ;
-}
-
-body {
-    padding: 20px;
