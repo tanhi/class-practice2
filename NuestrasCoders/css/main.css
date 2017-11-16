@@ -1,0 +1,48 @@
+.container {
+    width: 850px;
+    height: 432px;
+    display: inline-block;
+}
+
+img {
+    height: 200px;
+    width: 170px;
+    padding: 10px;
+}
+
+.image {
+    height: 210px;
+    width: 200px;
+    float: left;
+
+}
+
+span{
+    float: right;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    color: white;
+    text-shadow: #474747 4px 4px 4px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.separator {
+    background: #474747 ;
+    height: 5px;
+    width: 100px;
+    padding:0;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    color: #9FA09E ;
+}
+
+body {
+    padding: 20px;
